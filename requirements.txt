@@ -1,0 +1,28 @@
+loguru==0.7.2
+  - colorama [required: >=0.3.4, installed: 0.4.6]
+  - win32-setctime [required: >=1.0.0, installed: 1.1.0]
+moviepy==1.0.3
+  - decorator [required: >=4.0.2,<5.0, installed: 4.4.2]
+  - imageio [required: >=2.5,<3.0, installed: 2.34.0]
+    - numpy [required: Any, installed: 1.26.4]
+    - pillow [required: >=8.3.2, installed: 10.2.0]
+  - imageio-ffmpeg [required: >=0.2.0, installed: 0.4.9]
+    - setuptools [required: Any, installed: 69.2.0]
+  - numpy [required: >=1.17.3, installed: 1.26.4]
+  - numpy [required: Any, installed: 1.26.4]
+  - proglog [required: <=1.0.0, installed: 0.1.10]
+    - tqdm [required: Any, installed: 4.66.2]
+      - colorama [required: Any, installed: 0.4.6]
+  - requests [required: >=2.8.1,<3.0, installed: 2.31.0]
+    - certifi [required: >=2017.4.17, installed: 2024.2.2]
+    - charset-normalizer [required: >=2,<4, installed: 3.3.2]
+    - idna [required: >=2.5,<4, installed: 3.6]
+    - urllib3 [required: >=1.21.1,<3, installed: 2.2.1]
+  - tqdm [required: >=4.11.2,<5.0, installed: 4.66.2]
+    - colorama [required: Any, installed: 0.4.6]
+openpyxl==3.1.2
+  - et-xmlfile [required: Any, installed: 1.1.0]
+pydub==0.25.1
+python-dotenv==1.0.1
+pytube==15.0.0
+PyYAML==6.0.1

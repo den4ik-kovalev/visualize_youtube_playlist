@@ -1,0 +1,87 @@
+# Разрешение видео
+width: 1920
+height: 1080
+
+# Стили для первой версии плейлиста
+v1:
+
+  # Размытие для рамки и прямоугольника
+  blur_radius: 20
+
+  # Рамка
+  main_border:
+    margin: 0
+    width: 13
+
+  # Прямоугольник с названием и полоской времени
+  main_rect:
+    width: 1080
+    height: 100
+    margin_bottom: 20
+
+  # Полоска времени
+  timebar:
+    width: 800
+    height: 10
+    margin_bottom: 20
+    circle_size: 24
+    color_empty: 'grey'
+    color_filled: '#98fb98'
+    border_color: 'black'
+    border_width: 2
+
+  # Название
+  title:
+    font_name: 'chekharda.ttf'
+    font_size: 32
+    color: 'white'
+    stroke_color: 'black'
+    stroke_width: 2
+
+  # Время
+  time:
+    font_name: 'chekharda.ttf'
+    font_size: 24
+    color: 'white'
+    stroke_color: 'black'
+    stroke_width: 2
+    shift_x: 40
+    shift_y: 10
+
+# Стили для второй версии плейлиста
+v2:
+
+  # Цвет фона
+  bg_color: '#93e1ed'
+
+  # Картинка
+  image:
+    size: 720
+    border_color: 'green'
+    border_width: 0
+
+  # Список треков
+  tracklist:
+    x: 1080
+    y: 90
+    line_height: 60
+    font_name: 'chekharda.ttf'
+    font_size: 36
+    color_default: 'white'
+    color_current: 'yellow'
+    stroke_color: 'black'
+    stroke_width: 2
+
+
+# Стили для одного трека
+song:
+
+  # Фон
+  bg:
+    blur_radius: 15
+
+  # Картинка
+  image:
+    size: 720
+    border_color: 'black'
+    border_width: 0

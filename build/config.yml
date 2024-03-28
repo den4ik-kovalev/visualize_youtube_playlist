@@ -1,0 +1,8 @@
+xlsx_file: 'test/data.xlsx'
+bg_file: 'test/wallpaper.jpg'
+img_file: 'test/jumbo.jpg'
+mp3_file: 'test/slowed.mp3'
+styles_file: 'styles.yml'
+save_dir: 'test'
+mode: 3
+example_frame: false
